@@ -15,10 +15,10 @@ abstract class _$AppRouter extends RootStackRouter {
 
   @override
   final Map<String, PageFactory> pagesMap = {
-    CounterRoute.name: (routeData) {
+    HomeRoute.name: (routeData) {
       return AutoRoutePage<dynamic>(
         routeData: routeData,
-        child: const CounterPage(),
+        child: const HomePage(),
       );
     },
     SecondRoute.name: (routeData) {
@@ -31,15 +31,15 @@ abstract class _$AppRouter extends RootStackRouter {
 }
 
 /// generated route for
-/// [CounterPage]
-class CounterRoute extends PageRouteInfo<void> {
-  const CounterRoute({List<PageRouteInfo>? children})
+/// [HomePage]
+class HomeRoute extends PageRouteInfo<void> {
+  const HomeRoute({List<PageRouteInfo>? children})
       : super(
-          CounterRoute.name,
+          HomeRoute.name,
           initialChildren: children,
         );
 
-  static const String name = 'CounterRoute';
+  static const String name = 'HomeRoute';
 
   static const PageInfo<void> page = PageInfo<void>(name);
 }
