@@ -27,7 +27,7 @@ class AppTextStyles {
   /// Text style for heading
 
   static const TextStyle h1 = TextStyle(
-    fontSize: 24,
+    fontSize: 40,
     fontWeight: FontWeight.w700,
   );
 
