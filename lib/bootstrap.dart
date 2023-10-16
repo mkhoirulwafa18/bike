@@ -41,7 +41,7 @@ Future<void> bootstrap(FutureOr<Widget> Function() builder) async {
     log(details.exceptionAsString(), stackTrace: details.stack);
   };
 
-  setStatusBar();
+  setStatusBar(brightness: Brightness.light);
 
   // Add cross-flavor configuration here
   runApp(
