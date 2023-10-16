@@ -1,4 +1,4 @@
-import 'package:app_boilerplate/features/counter/counter.dart';
+import 'package:bike/features/counter/counter.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 

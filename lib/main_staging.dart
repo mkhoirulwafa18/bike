@@ -1,5 +1,5 @@
-import 'package:app_boilerplate/app/app.dart';
-import 'package:app_boilerplate/bootstrap.dart';
+import 'package:bike/app/app.dart';
+import 'package:bike/bootstrap.dart';
 
 void main() {
   bootstrap(App.new);

@@ -1,5 +1,5 @@
-import 'package:app_boilerplate/shared/theme/app_colors.dart';
-import 'package:app_boilerplate/shared/theme/text_styles.dart';
+import 'package:bike/shared/theme/app_colors.dart';
+import 'package:bike/shared/theme/text_styles.dart';
 import 'package:flutter/material.dart';
 
 class TextThemes {

@@ -1,9 +1,9 @@
-import 'package:app_boilerplate/shared/data/local/storage_service.dart';
-import 'package:app_boilerplate/shared/providers/shared_prefs_service_provider.dart';
-import 'package:app_boilerplate/shared/theme/app_colors.dart';
-import 'package:app_boilerplate/shared/theme/text_styles.dart';
-import 'package:app_boilerplate/shared/theme/text_theme.dart';
-import 'package:app_boilerplate/shared/utils/helpers.dart';
+import 'package:bike/shared/data/local/storage_service.dart';
+import 'package:bike/shared/providers/shared_prefs_service_provider.dart';
+import 'package:bike/shared/theme/app_colors.dart';
+import 'package:bike/shared/theme/text_styles.dart';
+import 'package:bike/shared/theme/text_theme.dart';
+import 'package:bike/shared/utils/helpers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

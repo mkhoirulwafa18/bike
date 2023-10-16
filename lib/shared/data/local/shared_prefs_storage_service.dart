@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:app_boilerplate/shared/data/local/storage_service.dart';
+import 'package:bike/shared/data/local/storage_service.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SharedPrefsService implements StorageService {

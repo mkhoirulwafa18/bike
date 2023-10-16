@@ -1,8 +1,8 @@
-import 'package:app_boilerplate/features/counter/counter.dart';
-import 'package:app_boilerplate/l10n/l10n.dart';
-import 'package:app_boilerplate/routes/app_route.dart';
-import 'package:app_boilerplate/shared/theme/app_theme.dart';
-import 'package:app_boilerplate/shared/widgets/base_page.dart';
+import 'package:bike/features/counter/counter.dart';
+import 'package:bike/l10n/l10n.dart';
+import 'package:bike/routes/app_route.dart';
+import 'package:bike/shared/theme/app_theme.dart';
+import 'package:bike/shared/widgets/base_page.dart';
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';

@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(app_boilerplate LANGUAGES CXX)
+project(bike LANGUAGES CXX)
 
-set(BINARY_NAME "app_boilerplate")
+set(BINARY_NAME "bike")
 
 cmake_policy(SET CMP0063 NEW)
 

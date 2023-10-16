@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.example.verygoodcore.app-boilerplate" "\0"
-            VALUE "FileDescription", "app_boilerplate" "\0"
+            VALUE "CompanyName", "com.wafastarz.bike" "\0"
+            VALUE "FileDescription", "bike" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "app_boilerplate" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2022 com.example.verygoodcore.app-boilerplate. All rights reserved." "\0"
-            VALUE "OriginalFilename", "app_boilerplate.exe" "\0"
-            VALUE "ProductName", "App Boilerplate" "\0"
+            VALUE "InternalName", "bike" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2022 com.wafastarz.bike. All rights reserved." "\0"
+            VALUE "OriginalFilename", "bike.exe" "\0"
+            VALUE "ProductName", "Bike" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

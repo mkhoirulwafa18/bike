@@ -1,6 +1,6 @@
 {
-    "name": "App Boilerplate",
-    "short_name": "App Boilerplate",
+    "name": "Bike",
+    "short_name": "Bike",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
