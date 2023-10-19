@@ -15,3 +15,9 @@ void setStatusBar({
     ),
   );
 }
+
+/// --------------
+/// Asset Location
+/// --------------
+/// Example: ${imageAsset}/logo.png
+String imageAsset = 'assets/images';

@@ -1,7 +1,10 @@
 import 'package:auto_route/auto_route.dart';
+import 'package:bike/features/home/data/bike.dart';
+import 'package:flutter/material.dart';
 
+import '../features/details/presentation/screen/details_screen.dart';
 import '../features/home/presentation/screen/home_page.dart';
-import '../features/second/presentation/screen/second_page.dart';
+
 part 'app_route.gr.dart';
 
 @AutoRouterConfig(replaceInRouteName: 'Page,Route')
@@ -20,8 +23,8 @@ class AppRouter extends _$AppRouter {
           page: HomeRoute.page,
         ),
         AutoRoute(
-          path: '/second',
-          page: SecondRoute.page,
+          path: '/details',
+          page: DetailRoute.page,
         ),
       ];
 }

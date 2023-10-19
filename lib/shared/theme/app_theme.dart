@@ -15,16 +15,16 @@ final appThemeProvider = StateNotifierProvider<AppThemeModeNotifier, ThemeMode>(
 );
 
 class AppThemeModeNotifier extends StateNotifier<ThemeMode> {
-  AppThemeModeNotifier(this.storageService) : super(ThemeMode.light) {
+  AppThemeModeNotifier(this.storageService) : super(ThemeMode.dark) {
     getCurrentTheme();
   }
   final StorageService storageService;
 
-  ThemeMode currentTheme = ThemeMode.light;
+  ThemeMode currentTheme = ThemeMode.dark;
 
   Future<void> getCurrentTheme() async {
     final theme = await storageService.get('APP_THEME_STORAGE_KEY');
-    final value = ThemeMode.values.byName('${theme ?? 'light'}');
+    final value = ThemeMode.values.byName('${theme ?? 'dark'}');
     state = value;
   }
 
